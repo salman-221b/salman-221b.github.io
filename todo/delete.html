@@ -35,9 +35,11 @@
         }
 
         form input[type="submit"] {
+            display: block;
             width: 100%;
+            max-width: 120px;
             padding: 12px 20px;
-            margin: 8px 0;
+            margin: 8px auto;
             box-sizing: border-box;
             background-color: #23628c;
             color: white;
@@ -49,21 +51,18 @@
             background-color: #19496b;
         }
 
-        a {
+        a.btn-cancel {
             display: block;
             width: 100%;
             max-width: 120px;
             text-align: center;
             padding: 12px 20px;
-            margin: 8px 0;
+            margin: 8px auto;
             box-sizing: border-box;
             color: white;
             text-decoration: none;
-            border-radius: 3px;
-        }
-
-        a.btn-cancel {
             background-color: #e59400;
+            border-radius: 3px;
         }
 
         a.btn-cancel:hover {
