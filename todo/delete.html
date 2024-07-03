@@ -65,9 +65,9 @@
     <div class="center-column">
         <p>Are you sure you want to delete "{{item}}"?</p>
 
-        <a href="list.html" class="btn-cancel">Cancel</a>
+        <a href="index.html" class="btn-cancel">Cancel</a>
 
-        <form method="POST" action="list.html">
+        <form method="POST" action="index.html">
             {% csrf_token %}
             <input type="submit" name="Confirm" value="Confirm">
         </form>
